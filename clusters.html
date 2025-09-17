@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>DECA Personality Quiz</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- import the webpage's stylesheet -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+
+  <!-- import the webpage's javascript file -->
+  <script src="/clusters-script.js" defer>
+
+
+  </script>
+</head>
+
+<body>
+
+  <header>
+    <h1>FINDING YOUR DECA EVENT</h1>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="event-category.html">Event Category Quiz</a>
+        </li>
+        <li>
+          <a href="prepared-events.html">Prepared Events Quiz</a>
+        </li>
+        <li>
+          <a href="roleplays.html">Roleplays Quiz</a>
+        </li>
+        <li>
+          <a href="clusters.html">Clusters Quiz</a>
+        </li>
+      </ul>
+    </nav>
+
+    <h4>Which Event Cluster is For You?</h4>
+
+  </header>
+
+  <main>
+
+    <div class="question" data-question="1">
+      <h2>What would you do if you were handed a million dollars?</h2>
+      <div class = "answer-choices">
+
+      <div class="answer" data-type="A">
+        <p>Invest it in my unique business idea.</p>
+      </div>
+
+      <div class="answer" data-type="B">
+        <p>Design and create my dream home.</p>
+      </div>
+
+        <div class="answer" data-type="C">
+          <p>Save it all for several luxury vacations.</p>
+        </div>
+
+        <div class="answer" data-type="D">
+          <p>Give most of it to different charities.</p>
+        </div>
+
+        <div class="answer" data-type="E">
+          <p>Invest it strategically in the stock market.</p>
+        </div>
+
+        </div>
+    </div> 
+
+    <div class="question" data-question="2">
+      <h2>What skills do you have?</h2>
+      <div class = "answer-choices">
+
+      <div class="answer" data-type="A">
+        <p>Coming up with original ideas. No matter how unrealistic.</p>
+      </div>
+
+      <div class="answer" data-type="B">
+        <p>Convincing and persuading people to do what I want.</p>
+      </div>
+
+        <div class="answer" data-type="C">
+          <p>Making people feel at home.</p>
+        </div>
+
+        <div class="answer" data-type="D">
+          <p>Getting any big project done.</p>
+        </div>
+
+        <div class="answer" data-type="E">
+          <p>Analyzing present circumstances and planning for the future.</p>
+        </div>
+
+        </div>
+    </div> 
+
+    <div class="question" data-question="3">
+      <h2>What cliche role would you play in an action movie?</h2>
+      <div class = "answer-choices">
+
+      <div class="answer" data-type="A">
+        <p>The ideas guy who saves everyone's lives.</p>
+      </div>
+
+      <div class="answer" data-type="B">
+        <p>The diplomat who saves face with the government.</p>
+      </div>
+
+        <div class="answer" data-type="C">
+          <p>The trustworthy local who knows everyone.</p>
+        </div>
+
+        <div class="answer" data-type="D">
+          <p>The all-seeing coordinator of the entire operation.</p>
+        </div>
+
+        <div class="answer" data-type="E">
+          <p>The strategist who runs the numbers.</p>
+        </div>
+
+        </div>
+    </div> 
+
+    <div class="question" data-question="4">
+      <h2>Pick the app/tool that you use the most.</h2>
+      <div class = "answer-choices">
+
+      <div class="answer" data-type="A">
+        <p>Notion or OneNote</p>
+      </div>
+
+        <div class="answer" data-type="B">
+          <p>Canva or PowerPoint or Google Slides</p>
+        </div>
+
+        <div class="answer" data-type="C">
+          <p>Yelp or TripAdvisor or Bookings.com</p>
+        </div>
+
+        <div class="answer" data-type="D">
+          <p>Trello or Monday.com</p>
+        </div>
+
+        <div class="answer" data-type="E">
+          <p>Excel or Google Sheets</p>
+        </div>
+
+        </div>
+    </div> 
+
+    <div class="question" data-question="5">
+      <h2>Which quote speaks to you the most?</h2>
+      <div class = "answer-choices">
+
+      <div class="answer" data-type="A">
+        <p>“The biggest risk is not taking any risk.” – Mark Zuckerberg</p>
+      </div>
+
+        <div class="answer" data-type="B">
+          <p>“People don’t buy what you do; they buy why you do it.” – Simon Sinek</p>
+        </div>
+
+        <div class="answer" data-type="C">
+          <p>“I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.” – Maya Angelou</p>
+        </div>
+
+        <div class="answer" data-type="D">
+          <p>“A goal without a plan is just a wish.” – Antoine de Saint-Exupéry</p>
+        </div>
+
+        <div class="answer" data-type="E">
+          <p>"Risk comes from not knowing what you're doing." - Warren Buffett</p>
+        </div>
+
+        </div>
+    </div> 
+
+   
+
+    <h2>The cluster most suited to you is...</h2>
+    <p id="result"></p>
+    <p id="resultDesc"></p>
+    <p id="nextSteps"></p>
+
+      <br>
+      <div>
+        <p id="restart">RESTART</p>
+      </div>
+
+  </main>
+  </body>
+</html>

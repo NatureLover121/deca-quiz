@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>DECA Personality Quiz</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- import the webpage's stylesheet -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+
+  <!-- import the webpage's javascript file -->
+  <script src="/event-category-script.js" defer>
+
+
+  </script>
+</head>
+
+<body>
+
+  <header>
+    <h1>FINDING YOUR DECA EVENT</h1>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="event-category.html">Event Category Quiz</a>
+        </li>
+        <li>
+          <a href="prepared-events.html">Prepared Events Quiz</a>
+        </li>
+        <li>
+          <a href="roleplays.html">Roleplays Quiz</a>
+        </li>
+        <li>
+          <a href="clusters.html">Clusters Quiz</a>
+        </li>
+      </ul>
+    </nav>
+
+    <h4>Which Event Category is For You?</h4>
+
+    <p>There are two main categories of DECA events: Roleplays and Prepared Events. There are also two additional categories: Corporate Challenges, and Simulation Challenges. This quiz seeks to tell you which of the four (or multiple) may interest you the most.</p>
+    <p id="important">However, if you have the time and the ambition, it is almost ALWAYS worth it to try multiple options! Personally, in my freshman year, I thought that I would be much better suited to a written event, but my partner wanted to try a roleplay event. We did both and we qualified for ICDC with only our roleplay. Even if you think that roleplays are not for you... if you have the time, I highly encourage you to try!</p>
+
+  </header>
+
+  <main>
+
+    <div class="question" data-question="1">
+      <h2>How much will you prioritize DECA this year?</h2>
+      <div class = "answer-choices">
+
+      <div class="answer" data-type="A">
+        <p>I can dedicate some time to it, but not too much.</p>
+      </div>
+
+      <div class="answer" data-type="B">
+        <p>It will be one of my highest priorities.</p>
+      </div>
+
+        <div class="answer" data-type="C">
+          <p>It will be THE highest priority.</p>
+        </div>
+
+        <div class="answer" data-type="D">
+          <p>It will be a semi-low priority.</p>
+        </div>
+
+        </div>
+
+    </div> 
+
+    <div class="question" data-question="2">
+      <h2>How long does your motivation tend to last?</h2>
+      <div class = "answer-choices">
+
+        <div class="answer" data-type="A">
+          <p>A few hours, and it comes sporadically.</p>
+
+      </div>
+
+        <div class="answer" data-type="B">
+           <p>Several hours at a time.</p>
+      </div>
+
+          <div class="answer" data-type="C">
+             <p>My motivation is extremely consistent, especially for DECA!</p>
+        </div>
+
+          <div class="answer" data-type="D">
+             <p>I can get fixated on something for a week or two, and then stop caring.</p>
+        </div>
+
+        </div>
+
+    </div> 
+
+    <div class="question" data-question="3">
+      <h2>Improvising or memorizing?</h2>
+      <div class = "answer-choices">
+
+        <div class="answer" data-type="A">
+          <p>Improvising all the way.</p>
+      </div>
+
+      <div class="answer" data-type="B">
+        <p>I prefer to be prepared and have things memorized.</p>
+      </div>
+
+       <div class="answer" data-type="C">
+        <p>Both!</p>
+      </div>
+
+      <div class="answer" data-type="D">
+          <p>Ideally neither. I like using a script.</p>
+      </div>
+
+        </div>
+
+    </div> 
+
+    <div class="question" data-question="4">
+      <h2>Are you a better writer or speaker?</h2>
+      <div class = "answer-choices">
+
+        <div class="answer" data-type="A">
+          <p>Definitely a better speaker.</p>
+      </div>
+
+      <div class="answer" data-type="B">
+        <p>I lean towards being a better writer.</p>
+      </div>
+
+       <div class="answer" data-type="C">
+        <p>Both!</p>
+      </div>
+
+      <div class="answer" data-type="D">
+          <p>Definitely a better writer.</p>
+      </div>
+
+        </div>
+
+      <div class="question" data-question="4">
+        <h2>Multiple choice or free-response?</h2>
+        <div class = "answer-choices">
+
+          <div class="answer" data-type="A">
+            <p>Multiple-choice! I have fairly good intuition.</p>
+        </div>
+
+        <div class="answer" data-type="B">
+          <p>I would prefer free-response. I can communicate my understanding better.</p>
+        </div>
+
+         <div class="answer" data-type="C">
+          <p>I don't have a preference!</p>
+        </div>
+
+        <div class="answer" data-type="D">
+            <p>Do I need to choose either one?</p>
+        </div>
+
+          </div>
+
+    </div> 
+
+    <h2>The DECA event category most suited to you is...</h2>
+    <p id="result"></p>
+    <p id="resultDesc"></p>
+    <p id="nextSteps"></p>
+
+      <br>
+      <div>
+        <p id="restart">RESTART</p>
+      </div>
+
+  </main>
+  </body>
+</html>

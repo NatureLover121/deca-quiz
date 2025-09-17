@@ -1,0 +1,143 @@
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: "Source Sans Pro",  sans-serif;
+  text-align: left;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 0.5em;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  font-weight: 700;
+  font-size: 3.3em;
+  color: #0072ce;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  margin-top: 0.5em; 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+h3 {
+  margin-top: 1em; 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 2.2em;
+  color: black;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #0072ce;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li {
+  display: inline;
+  text-align: center;
+}
+
+li a {
+  color: #F8F7F2;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: #0b5394;
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-center;
+  margin-top: 2em;
+}
+
+.answer-choices {
+  display: flex;
+  justify-content: left;
+  gap: 15px;
+}
+  
+/* STYLE FLEX ITEM */
+.answer {
+  margin: 0.5em;
+  padding: 0.5em;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid #0072ce;
+  background-color:;
+}
+
+#restart {
+  margin: 0.5em;
+  padding: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid black;
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+#restart:hover {
+  background-color:black;
+  color: white;
+}
+
+/* STYLE IMAGES */
+.answer img {
+  height: 10em;
+}
+
+.answer:hover {
+  background-color: #ddd;
+}
+
+.answer.selected {
+  background-color:#9fc5e8;
+}
+
+#result {
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #0072ce;
+  padding: 0em;
+}
+
+#nextSteps {
+  color: black;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#important {
+  color: black;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+}
